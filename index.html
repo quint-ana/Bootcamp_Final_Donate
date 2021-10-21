@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title></title>
+        
+    </head>
+
+    <body>
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+
+        <!--This dropdown sort of works-->
+        <!--<div class="btn-group">
+
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#home" class="active">Home</a>
+            </button>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Latest News/Tweets</a></li>
+            <li><a class="dropdown-item" href="#">Announcements</a></li>
+            <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
+            <li><a class="dropdown-item" href="#">COVID-19 Resources</a></li>
+            </ul>
+        </div>-->
+        
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+            <!--<a class="navbar-brand logo-font" href="#">
+                <h3>Autism Science Foundation</h3>
+            </a>-->
+            <!-- links toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- account toggle --> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#account" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="links">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About ASF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Who we Fund</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">What is Autism</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Get Involved</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse" id="account">
+
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                        
+                            <div class="button-wrapper">
+                                <a class="button cta-button" href="https://quint-ana.github.io/Bootcamp_Final_Project/" href="#0">Donate Now</a>
+                            </div>
+
+                        </a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+
+                            <div class="button-wrapper">
+                                <a class="button cta-button" href="https://anayjahrob.github.io/Jays-code/">Log In</a>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>  
+                            </div>
+
+                        </a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!--<a href="#home" class="active">Home</a>
+        <a href="#news">About ASF</a>
+        <a href="#contact">Who we Fund</a>
+        <a href="#about">What is Autism</a>
+        <a href="#about">Get Involved</a>
+        <a href="#about">Resources</a>
+        <a href="#about">Contact Us</a>
+
+        
+
+        <div class="donate-btn">
+            <div class="button-wrapper">
+                <a class="button cta-button" href="index.html" href="#0">Donate Now</a>
+            </div>
+            
+            
+            <a href="https://anayjahrob.github.io/Jays-code/">Log In</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </div>-->
+
+    </div>
+        
+            <section class="hero">
+                <div class="hero-inner">
+                    <h1>Donate to Autism Science Foundation</h1>
+                    <!--<h2>Thank you for considering a donation to the Autism Science Foundation. Your generous donation will support urgently needed autism research, and help us understand the causes of autism and develop better treatments. On behalf of the millions of Americans challenged by autism, thank you for your generosity. You are not only helping to advance scientific progress, you are giving our families the gift of hope.</h2>
+                    <h3>ASF is a public charity under section 501c3 of the IRS code. Donations are tax-deductible.</h3>
+                    <h3>Recurring donor? Sign in or create an account to edit a recurring donation.</h3>
+                    <a href="https://example.com/" class="btn">Learn More</a>-->
+                </div>
+            </section>
+
+
+            
+            <main>
+
+                  <!--<h1>Main Area</h1>-->
+              
+              <div id="main">
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container ">
+                    <!--<h1 class="display-4">Donate to Autism Science Foundation</h1>-->
+                    <p class="lead">Thank you for considering a donation to the Autism Science Foundation. Your generous donation will support urgently needed autism research, and help us understand the causes of autism and develop better treatments.
+                      On behalf of the millions of Americans challenged by autism, thank you for your generosity. You are not only helping to advance scientific progress, you are giving our families the gift of hope.</p>
+                      <p class="lead">ASF is a public charity under section 501c3 of the IRS code. Donations are tax-deductible.</p>
+                      <p class="lead">Recurring donor?
+                        <a html="https://anayjahrob.github.io/Jays-code/">Sign in</a> or create an account to edit a recurring donation.</p>
+                  </div>
+                </div>
+          
+                <!--Step 1-->
+          
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container">
+                    <div class="btn-group" role="group" aria-label="Basic example"></div>
+                      <h1 class="display-4">Step 1: Donation Level</h1>
+                        <div>
+                              <button type="button" class="btn btn-secondary">$25</button>
+                              <button type="button" class="btn btn-secondary">$50</button>
+                              <button type="button" class="btn btn-secondary">$100</button>
+                              <button type="button" class="btn btn-secondary">$250</button>
+                              <button type="button" class="btn btn-secondary">Other</button>
+                              <form action="/action_page.php">
+                                <label for="fname">Please enter amount.</label>
+                                <input type="text" id="fname" name="fname">   
+                              </form>
+                        </div>
+                  </div>
+                </div>
+          
+                <!--Step 2-->
+          
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container">
+                    <div class="btn-group" role="group" aria-label="Basic example"></div>
+                      <h2 class="display-4">Step 2: Donation Frequency</h2>
+                      <div>
+                        <button type="button" class="btn btn-secondary">One Time</button>
+                        <button type="button" class="btn btn-secondary">Monthly</button>
+                        <button type="button" class="btn btn-secondary">Quarterly</button>
+                        <button type="button" class="btn btn-secondary">Annually</button>
+                      </div>
+                  </div>
+                  </div>
+          
+          
+                <!--Step 3-->
+          
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container">
+                    <div class="btn-group" role="group" aria-label="Basic example"></div>
+                      <h2 class="display-4">Step 3: Payment Information</h2>
+                        <p>Please select your payment below.</p>
+                        <div>
+                          <script type="text/javascript">
+                            function toggle(obj) {
+                                      var obj=document.getElementById(obj);
+                                      if (obj.style.display == "block") obj.style.display = "none";
+                                      else obj.style.display = "block";
+                            }
+                            </script>
+                            
+                            <a href="javascript: void(0);" onClick="toggle('q1')">
+                              <div>
+                                <button type="button" class="btn btn-secondary">Credit/Debit</button>
+                              </div>
+                            </a>
+                            
+                            <button type="button" class="btn btn-secondary">
+                              <a href="https://www.paypal.com/us/home">PayPal</a>
+                            </button>
+
+                            <div id="q1" style="display:none;">
+                              <h3>Contact Information</h3>
+
+                              <div class="grid grid-col">
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Last Name</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Email</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                  <div class="container">
+                                    <div class="round">
+                                      <input type="checkbox" checked id="checkbox" />
+                                      <label for="checkbox"></label>
+                                    </div>
+                                    <p>Subscribe to our monthly newsletter.</p>
+                                  </div> 
+                                </div>
+                              </div>
+                            
+                            <h3>Billing Information</h3>
+
+                            <div class="grid grid-col">
+                              <div class="cell">
+                                <form action="/action_page.php">
+                                  <label for="fname">Address 1</label>
+                                  <input type="text" id="fname" name="fname">   
+                                </form>
+                              </div>
+                              
+                              <div class="cell">
+                                <form action="/action_page.php">
+                                  <label for="fname">City</label>
+                                  <input type="text" id="fname" name="fname">   
+                                </form>
+                              </div>
+
+                              <div class="cell">
+                                <label>State
+                                  <input list="browsers" name="myBrowser" /></label>
+                                  <datalist id="browsers">
+                                    <option value="Alabama">
+                                    <option value="Alaska">
+                                    <option value="Arizona">
+                                    <option value="Arkansas">
+                                    <option value="California">
+                                    <option value="Colorado">
+                                    <option value="Connecticut">
+                                    <option value="Delaware">
+                                    <option value="Florida">
+                                    <option value="Georgia">
+                                    <option value="Hawaii">
+                                    <option value="Idaho">
+                                    <option value="Illanois">
+                                    <option value="Indiana">
+                                    <option value="Iowa">
+                                    <option value="Kansas">
+                                    <option value="Kentucky">
+                                    <option value="Louisiana">
+                                    <option value="Maine">
+                                    <option value="Maryland">
+                                    <option value="Massachusetts">
+                                    <option value="Michigan">
+                                    <option value="Minnesota">
+                                    <option value="Mississippi">
+                                    <option value="Missouri">
+                                    <option value="Montana">
+                                    <option value="Nebraska">
+                                    <option value="Nevada">
+                                    <option value="New Hampshire">
+                                    <option value="New Jersey">
+                                    <option value="New Mexico">
+                                    <option value="New York">
+                                    <option value="North Carolina">
+                                    <option value="North Dakota">
+                                    <option value="Ohio">
+                                    <option value="Oklahoma">
+                                    <option value="Oregon">
+                                    <option value="Pennsylvania">
+                                    <option value="Rhode Island">
+                                    <option value="South Carolina">
+                                    <option value="South Dakota">
+                                    <option value="Tennessee">
+                                    <option value="Texas">
+                                    <option value="Utah">
+                                    <option value="Vermont">
+                                    <option value="Virginia">
+                                    <option value="Washington">
+                                    <option value="West Virginia">
+                                    <option value="Wisconsin">
+                                    <option value="Wyoming">
+                                  </datalist>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">ZIP Code</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <label>Country
+                                    <input list="browsers" name="myBrowser" /></label>
+                                    <datalist id="browsers">
+                                      <option value="Chrome">
+                                      <option value="Firefox">
+                                      <option value="Internet Explorer">
+                                      <option value="Opera">
+                                      <option value="Safari">
+                                      <option value="Microsoft Edge">
+                                    </datalist>
+                                </div>
+
+                                <!--<div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Name on Card</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Card Number</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Security Code</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Month</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div class="cell">
+                                  <form action="/action_page.php">
+                                    <label for="fname">Year</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>-->
+
+                                
+                            </div>
+                            <div class="checkout">
+                                <div class="credit-card-box">
+                                  <div class="flip">
+                                    <div class="front">
+                                      <div class="chip"></div>
+                                      <div class="logo">
+                                        <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                             width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+                                          <g>
+                                            <g>
+                                              <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                                                       c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                                                       c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                                                       M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                                                       c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                                                       c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                                                       l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                                                       C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                                                       C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                                                       c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                                                       h-3.888L19.153,16.8z"/>
+                                            </g>
+                                          </g>
+                                        </svg>
+                                      </div>
+                                      <div class="number"></div>
+                                      <div class="card-holder">
+                                        <label>Card holder</label>
+                                        <div></div>
+                                      </div>
+                                      <div class="card-expiration-date">
+                                        <label>Expires</label>
+                                        <div></div>
+                                      </div>
+                                    </div>
+                                    <div class="back">
+                                      <div class="strip"></div>
+                                      <div class="logo">
+                                        <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                             width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+                                          <g>
+                                            <g>
+                                              <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                                                       c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                                                       c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                                                       M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                                                       c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                                                       c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                                                       l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                                                       C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                                                       C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                                                       c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                                                       h-3.888L19.153,16.8z"/>
+                                            </g>
+                                          </g>
+                                        </svg>
+                              
+                                      </div>
+                                      <div class="ccv">
+                                        <label>CCV</label>
+                                        <div></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <form class="form" autocomplete="off" novalidate>
+                                  <fieldset>
+                                    <label for="card-number">Card Number</label>
+                                    <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
+                                    <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
+                                    <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
+                                    <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
+                                  </fieldset>
+                                  <fieldset>
+                                    <label for="card-holder">Card holder</label>
+                                    <input type="text" id="card-holder" />
+                                  </fieldset>
+                                  <fieldset class="fieldset-expiration">
+                                    <label for="card-expiration-month">Expiration date</label>
+                                    <div class="select">
+                                      <select id="card-expiration-month">
+                                        <option></option>
+                                        <option>01</option>
+                                        <option>02</option>
+                                        <option>03</option>
+                                        <option>04</option>
+                                        <option>05</option>
+                                        <option>06</option>
+                                        <option>07</option>
+                                        <option>08</option>
+                                        <option>09</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                      </select>
+                                    </div>
+                                    <div class="select">
+                                      <select id="card-expiration-year">
+                                        <option></option>
+                                        <option>2016</option>
+                                        <option>2017</option>
+                                        <option>2018</option>
+                                        <option>2019</option>
+                                        <option>2020</option>
+                                        <option>2021</option>
+                                        <option>2022</option>
+                                        <option>2023</option>
+                                        <option>2024</option>
+                                        <option>2025</option>
+                                      </select>
+                                    </div>
+                                  </fieldset>
+                                  <fieldset class="fieldset-ccv">
+                                    <label for="card-ccv">CCV</label>
+                                    <input type="text" id="card-ccv" maxlength="3" />
+                                  </fieldset>
+                                  <button class="btn"><i class="fa fa-lock"></i> submit</button>
+                                </form>
+                              </div>
+                          </div>
+                        </div>
+                       
+                  </div>
+                  </div>
+
+                <!--Optional step-->
+          
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container">
+                    <h2 class="display-4">Optional</h2>
+                      <p>Do you have a special purpose for your donation? If so, please let us know.</p>
+                      <p>I want my donation to be dedicated:</p>
+                      <form action="/action_page.php">
+                        <label for="fname">In honor of, in memory of etc.</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <div class="container">
+                          <div class="round">
+                            <input type="checkbox" checked id="optional" />
+                            <label for="optional"></label>
+                          </div>
+                          <p>Please send an acknowledgement to the individual or organization to whom I am dedicating my donation.</p>
+                        </div>     
+                      </form>
+                  </div>
+                </div>
+          
+                  <!--Step 4-->
+          
+                  <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <div class="btn-group" role="group" aria-label="Basic example"></div>
+                        <h2 class="display-4">Step 4: Giving Option</h2>
+                        <div>
+                            <p>Your donation is securely processed by our nonprofit partner, Network for Good, with a 3% transaction fee to cover credit card fees, bank fees, and other processing costs. Please consider chipping in an additional 3% so 100% of your donation amount goes to us.</p>
+                            <div class="container">
+                              <div class="round">
+                                <input type="checkbox" checked id="donate1" />
+                                <label for="donate1"></label>
+                              </div>
+                              <p>Donate 100% - Add 3% so that 100% of the donation goes to AUTISM SCIENCE FOUNDATION.</p>
+                            </div>
+                            <div class="container">
+                              <div class="round">
+                                <input type="checkbox" checked id="donate2" />
+                                <label for="donate2"></label>
+                              </div>
+                              <p>Donate 97% - I understand Network for Good will deduct 3% to cover transaction costs.</p>
+                            </div> 
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                      <!--Donate Now button-->
+                  <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <div class="btn-group" role="group" aria-label="Basic example"></div>
+                            <div>
+                              <!--<form action="https://quint-ana.github.io/Bootcamp_Final_P2/">
+                                  <button type="submit" class="btn btn-secondary donate">
+                                    <h1 class= "display-4">Donate Now</h1>
+                                  </button>
+                                </form>-->
+                                <div class="button-wrapper">
+                                    <h1 class= "display-6">
+                                        <a class="button cta-button" href="https://quint-ana.github.io/Bootcamp_Final_Project/" href="#0">Donate Now</a>
+                                    </h1>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  </div>
+
+                <!--<div class="container">
+
+                    <h2>Donate now</h2>
+
+                    <label class="container">One Time
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="container">Monthly
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="container">Quarterly
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="container">Annually
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+
+                </div>
+
+                <div class="donate">
+                    <button type="button" class="btn btn-secondary">$25</button>
+                    <button type="button" class="btn btn-secondary">$50</button>
+                    <button type="button" class="btn btn-secondary">$100</button>
+                    <button type="button" class="btn btn-secondary">$250</button>
+                    <button type="button" class="btn btn-secondary">Other</button>
+                    <form action="/action_page.php">
+                      <label for="fname">Please enter amount.</label>
+                      <input type="text" id="fname" name="fname">   
+                    </form>
+              </div>-->
+
+
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nibh molestie, efficitur leo sed, viverra nunc. Donec vehicula accumsan erat facilisis ullamcorper. Donec commodo quis dui nec placerat. Donec mi orci, scelerisque eget nisl ac, hendrerit condimentum odio. Nam dictum odio eget quam tempus, a mattis odio ornare. Nullam auctor libero ut libero suscipit, ut accumsan nunc condimentum. Donec ullamcorper maximus sapien quis egestas.</p>
+        
+                <p>Mauris viverra scelerisque lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ultrices enim sit amet elit tincidunt maximus. Suspendisse vitae pellentesque lectus. Duis commodo leo suscipit augue mollis, non venenatis dolor ullamcorper. Duis tincidunt scelerisque lacus, vel vehicula leo consectetur vel. Duis posuere nisl non odio consequat ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                
+                <p>Etiam a leo nec mi blandit euismod. Etiam fringilla odio vitae risus ornare, id bibendum velit consequat. Fusce posuere risus sollicitudin condimentum ultrices. Fusce gravida, purus eget laoreet mattis, velit sapien ultrices diam, id dapibus erat leo id quam. Maecenas quis risus convallis, placerat elit non, iaculis tortor. Nullam porttitor magna risus, quis bibendum metus tincidunt in. Etiam vel ligula ac risus mattis tincidunt vel sit amet ante. Morbi et viverra ligula. Ut ac dignissim nisi, condimentum imperdiet mauris. Pellentesque ut ipsum vel diam tristique faucibus eu et lectus. Maecenas posuere neque non lacus bibendum, sit amet pharetra justo semper. Sed mi risus, tempor sit amet ligula eget, varius pretium est. Sed a odio in orci accumsan pretium suscipit ut quam.</p>-->
+            </main>
+
+            <footer>
+                <p>© 2021 Autism Science Foundation | 3 Continental Road, Scarsdale, NY 10583
+                  Autism Science Foundation is a 501(c)(3) non-profit organization. Terms of Use & Privacy Policy</p>
+              </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="index.js"></script>
+
+    </body>
+</html>
