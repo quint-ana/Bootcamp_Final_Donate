@@ -155,13 +155,13 @@
                 <div class="jumbotron jumbotron-fluid">
                   <div class="container">
                     <div class="btn-group" role="group" aria-label="Basic example"></div>
-                      <h1 class="display-4">Step 1: Donation Level</h1>
+                      <h2 class="display-4">Step 1: Donation Level</h2>
                         <div>
-                              <button type="button" class="btn btn-secondary">$25</button>
-                              <button type="button" class="btn btn-secondary">$50</button>
-                              <button type="button" class="btn btn-secondary">$100</button>
-                              <button type="button" class="btn btn-secondary">$250</button>
-                              <button type="button" class="btn btn-secondary">Other</button>
+                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$25</button>
+                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$50</button>
+                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$100</button>
+                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$250</button>
+                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Other</button>
                               <form action="/action_page.php">
                                 <label for="fname">Please enter amount.</label>
                                 <input type="text" id="fname" name="fname">   
@@ -177,10 +177,10 @@
                     <div class="btn-group" role="group" aria-label="Basic example"></div>
                       <h2 class="display-4">Step 2: Donation Frequency</h2>
                       <div>
-                        <button type="button" class="btn btn-secondary">One Time</button>
-                        <button type="button" class="btn btn-secondary">Monthly</button>
-                        <button type="button" class="btn btn-secondary">Quarterly</button>
-                        <button type="button" class="btn btn-secondary">Annually</button>
+                        <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">One Time</button>
+                        <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Monthly</button>
+                        <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Quarterly</button>
+                        <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Annually</button>
                       </div>
                   </div>
                   </div>
@@ -204,66 +204,75 @@
                             
                             <a href="javascript: void(0);" onClick="toggle('q1')">
                               <div>
-                                <button type="button" class="btn btn-secondary">Credit/Debit</button>
+                                <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Credit/Debit</button>
                               </div>
                             </a>
                             
-                            <button type="button" class="btn btn-secondary">
+                            <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">
                               <a href="https://www.paypal.com/us/home">PayPal</a>
                             </button>
 
                             <div id="q1" style="display:none;">
-                              <h3>Contact Information</h3>
-
-                              <div class="grid grid-col">
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">First Name</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                </div>
-
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Last Name</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                </div>
-
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Email</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                  <div class="container">
-                                    <div class="round">
-                                      <input type="checkbox" checked id="checkbox" />
-                                      <label for="checkbox"></label>
-                                    </div>
-                                    <p>Subscribe to our monthly newsletter.</p>
-                                  </div> 
-                                </div>
-                              </div>
-                            
-                            <h3>Billing Information</h3>
+                              <h3 style="color:#1c87c9">Contact Information</h3>
 
                             <div class="grid grid-col">
-                              <div class="cell">
-                                <form action="/action_page.php">
-                                  <label for="fname">Address 1</label>
-                                  <input type="text" id="fname" name="fname">   
-                                </form>
-                              </div>
-                              
-                              <div class="cell">
-                                <form action="/action_page.php">
-                                  <label for="fname">City</label>
-                                  <input type="text" id="fname" name="fname">   
-                                </form>
-                              </div>
+                                <div>
+                                    <form>
+                                        <label for="fname">First name:</label>
+                                        <br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </form>
+                                </div>
 
-                              <div class="cell">
-                                <label>State
+                                <div>
+                                    <form>
+                                        <label for="lname">Last name:</label><br>
+                                        <input type="text" id="lname" name="lname">
+                                    </form>
+                                </div>
+
+                                <div>
+                                    <form>
+                                        <label for="lname">Email:</label><br>
+                                        <input type="text" id="lname" name="lname">
+                                    </form>
+                                </div>
+
+                            
+
+                                <div>
+                                  
+                                    <div class="container">
+                                        <div class="round">
+                                        <input type="checkbox" checked id="checkbox" />
+                                        <label for="checkbox"></label>
+                                    </div>    
+                                    <br>
+                                    <p>Subscribe to our monthly newsletter.</p>
+                                </div> 
+                            </div>
+                            </div>
+                              
+                            
+                            <h3 style="color:#1c87c9">Billing Information</h3>
+
+                            <div class="grid grid-col">
+                                <div>
+                                    <form>
+                                        <label for="fname">Address:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </form>
+                                </div>
+                              
+                                <div>
+                                    <form>
+                                        <label for="fname">City:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </form>
+                                </div>
+
+                              <div>
+                                <label>State:
                                   <input list="browsers" name="myBrowser" /></label>
                                   <datalist id="browsers">
                                     <option value="Alabama">
@@ -319,15 +328,22 @@
                                   </datalist>
                                 </div>
 
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">ZIP Code</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
+                                <div>
+                                    <form>
+                                        <label for="fname">Zip Code:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </form>
                                 </div>
 
-                                <div class="cell">
-                                  <label>Country
+                                <div>
+                                    <form>
+                                        <label for="fname">Country:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </form>
+                                </div>
+
+                                <!--<div>
+                                  <label>Country:
                                     <input list="browsers" name="myBrowser" /></label>
                                     <datalist id="browsers">
                                       <option value="Chrome">
@@ -337,46 +353,52 @@
                                       <option value="Safari">
                                       <option value="Microsoft Edge">
                                     </datalist>
-                                </div>
-
-                                <!--<div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Name on Card</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                </div>
-
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Card Number</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                </div>
-
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Security Code</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                </div>
-
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Month</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
-                                </div>
-
-                                <div class="cell">
-                                  <form action="/action_page.php">
-                                    <label for="fname">Year</label>
-                                    <input type="text" id="fname" name="fname">   
-                                  </form>
                                 </div>-->
 
+                            </div>
+
+                            <h3 style="color:#1c87c9">Payment Information</h3>
+
+                            <div class="grid grid-col">
+
+                                <div>
+                                  <form action="/action_page.php">
+                                    <label for="fname">Name on Card:</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div>
+                                  <form action="/action_page.php">
+                                    <label for="fname">Card Number:</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div>
+                                  <form action="/action_page.php">
+                                    <label for="fname">Security Code:</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div>
+                                  <form action="/action_page.php">
+                                    <label for="fname">Month:</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+
+                                <div>
+                                  <form action="/action_page.php">
+                                    <label for="fname">Year:</label>
+                                    <input type="text" id="fname" name="fname">   
+                                  </form>
+                                </div>
+                            </div>
                                 
                             </div>
-                            <div class="checkout">
+                            <!--<div class="checkout">
                                 <div class="credit-card-box">
                                   <div class="flip">
                                     <div class="front">
@@ -494,7 +516,7 @@
                                   </fieldset>
                                   <button class="btn"><i class="fa fa-lock"></i> submit</button>
                                 </form>
-                              </div>
+                              </div>-->
                           </div>
                         </div>
                        
@@ -516,6 +538,7 @@
                             <input type="checkbox" checked id="optional" />
                             <label for="optional"></label>
                           </div>
+                          <br>
                           <p>Please send an acknowledgement to the individual or organization to whom I am dedicating my donation.</p>
                         </div>     
                       </form>
@@ -535,6 +558,7 @@
                                 <input type="checkbox" checked id="donate1" />
                                 <label for="donate1"></label>
                               </div>
+                              <br>
                               <p>Donate 100% - Add 3% so that 100% of the donation goes to AUTISM SCIENCE FOUNDATION.</p>
                             </div>
                             <div class="container">
@@ -542,6 +566,7 @@
                                 <input type="checkbox" checked id="donate2" />
                                 <label for="donate2"></label>
                               </div>
+                              <br>
                               <p>Donate 97% - I understand Network for Good will deduct 3% to cover transaction costs.</p>
                             </div> 
                           </div>

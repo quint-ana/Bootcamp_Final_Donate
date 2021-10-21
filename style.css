@@ -1,8 +1,8 @@
-body {
+/*body {
     margin: 0;
     font-family: sans-serif;
     background-color: #f5f7fa;
-}
+}*/
 
 /*.navbar.transparent.navbar-inverse .navbar-inner {
     background: rgba(0,0,0,0.4);
@@ -518,7 +518,7 @@ body {
   /*--------------------
   Credit Card
   --------------------*/
-  .credit-card-box {
+  /*.credit-card-box {
     perspective: 1000;
     width: 400px;
     height: 280px;
@@ -682,5 +682,44 @@ body {
     }
   
   
-  }
+  }*/
   /*Credit Card Payment end*/
+
+  html, body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+
+    h2 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #1c87c9;
+    }
+    
+    
+   
+    
+    
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+     
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+   
+    
+    
+   
+    }
