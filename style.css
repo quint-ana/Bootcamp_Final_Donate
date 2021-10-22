@@ -518,7 +518,7 @@
   /*--------------------
   Credit Card
   --------------------*/
-  /*.credit-card-box {
+  .credit-card-box {
     perspective: 1000;
     width: 400px;
     height: 280px;
@@ -682,7 +682,7 @@
     }
   
   
-  }*/
+  }
   /*Credit Card Payment end*/
 
   html, body {
@@ -719,7 +719,8 @@
     flex-direction: row;
     }
    
-    
-    
-   
     }
+
+/*form {
+    display: inline-block;
+}*/
