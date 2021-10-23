@@ -35,7 +35,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
             <a class="navbar-brand logo-font" href="#">
-                <h4 href="https://quint-ana.github.io/Bootcamp_Final_Home/">Autism Science Foundation</h4>
+                <a href="https://quint-ana.github.io/Bootcamp_Final_Home/">
+                    <h4>ASF</h4>
+                </a>
             </a>
             <!-- links toggle -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -147,7 +149,7 @@
                       On behalf of the millions of Americans challenged by autism, thank you for your generosity. You are not only helping to advance scientific progress, you are giving our families the gift of hope.</p>
                       <p class="lead">ASF is a public charity under section 501c3 of the IRS code. Donations are tax-deductible.</p>
                       <p class="lead">Recurring donor?
-                        <a href="https://anayjahrob.github.io/Jays-code/">Sign in</a> or <a href="https://anayjahrob.github.io/Jays-code/">create an account</a> to edit a recurring donation.</p>
+                        <a href="https://anayjahrob.github.io/Jays-code/" style="color:rgb(0, 0, 0)">Sign in</a> or <a href="https://anayjahrob.github.io/Jays-code/" style="color:rgb(0, 0, 0)">create an account</a> to edit a recurring donation.</p>
                   </div>
                 </div>
           
@@ -155,19 +157,21 @@
           
                 <div class="jumbotron jumbotron-fluid">
                   <div class="container">
-                    <div class="btn-group" role="group" aria-label="Basic example"></div>
-                      <h2 class="display-4">Step 1: Donation Level</h2>
-                        <div>
-                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$25</button>
-                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$50</button>
-                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$100</button>
-                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$250</button>
-                              <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Other</button>
-                              <form action="/action_page.php">
-                                <label for="name">Please enter amount.</label>
-                                <input type="text" id="name" name="name">   
-                              </form>
-                        </div>
+                        <div class="btn-group" role="group" aria-label="Basic example"></div>
+                        <h2 class="display-4">Step 1: Donation Level</h2>
+                            <div>
+                                <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$25</button>
+                                <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$50</button>
+                                <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$100</button>
+                                <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">$250</button>
+                                <button style="color:rgb(0, 0, 0)" type="button" class="btn btn-secondary">Other</button>
+                               
+                                <form action="/action_page.php">
+                                    <label for="name">Please enter amount.</label>
+                                    <input type="text" id="fname" name="name">
+                                </form>
+                                
+                            </div>
                   </div>
                 </div>
           
@@ -230,14 +234,14 @@
                                 <div>
                                     <form>
                                         <label for="lname">Last name:</label><br>
-                                        <input type="text" id="lname" name="lname">
+                                        <input type="text" id="fname" name="lname">
                                     </form>
                                 </div>
 
                                 <div>
                                     <form>
                                         <label for="lname">Email:</label><br>
-                                        <input type="text" id="lname" name="lname">
+                                        <input type="text" id="fname" name="lname">
                                     </form>
                                 </div>
 
@@ -276,7 +280,7 @@
 
                               <div>
                                 <label>State:
-                                  <input list="browsers" name="myBrowser" /></label>
+                                  <input list="browsers" id="fname" name="myBrowser" /></label>
                                   <datalist id="browsers">
                                     <option value="Alabama">
                                     <option value="Alaska">
@@ -359,6 +363,8 @@
                                 </div>-->
 
                             </div>
+
+                            <br>
 
                             <h3 style="color:#1c87c9">Payment Information</h3>
 
